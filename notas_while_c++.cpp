@@ -9,7 +9,7 @@ int main (){
 	int n1,n2,n3,n4,md,x=0;
 	char nome;
 	
-	puts ("NOTAS E MÉDIAS DOS ALUNOS");
+	puts ("NOTAS E MÃ‰DIAS DOS ALUNOS");
 	
 	while (x<7){
 	
@@ -30,7 +30,7 @@ int main (){
 		
 		md = (n1+n2+n3+n4)/4;
 		
-		printf ("A média do aluno foi: %d\n\n",md);
+		printf ("A mÃ©dia do aluno foi: %d\n\n",md);
 	
 		
 		x++;
