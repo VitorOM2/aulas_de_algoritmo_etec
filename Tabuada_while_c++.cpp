@@ -7,7 +7,7 @@ int main (){
 	
 	int tab=7,res,num=1;
 	
-	puts ("********TABUADA DO NÚMERO 7********");
+	puts ("********TABUADA DO NÃšMERO 7********");
 	
 	while (num<=10){
 		system ("COLOR 02");
