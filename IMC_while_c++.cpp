@@ -9,7 +9,7 @@ int main (){
 	float imc,peso,altura;
 	
 	printf ("Deseja calcular o seu IMC?\n");
-	printf ("1 - SIM ou 2 - NÃO: ");
+	printf ("1 - SIM ou 2 - NÃƒO: ");
 	scanf ("%d",&res);
 	system ("CLS");
 	
@@ -17,38 +17,38 @@ int main (){
 		printf ("Digite sua altura: ");
 		scanf ("%f",&altura);
 		
-		printf ("Digite o quanto você está pesando: ");
+		printf ("Digite o quanto vocÃª estÃ¡ pesando: ");
 		scanf ("%f",&peso);
 		
 		imc = peso /(altura*altura);
 		
 		if ( imc < 18){
-			printf ("Sua classificação é: Magreza\n");
+			printf ("Sua classificaÃ§Ã£o Ã©: Magreza\n");
 			printf ("Deseja calcular o seu IMC?\n");
-			printf ("1 - SIM ou 2 - NÃO: ");
+			printf ("1 - SIM ou 2 - NÃƒO: ");
 			scanf ("%d",&res);
 			system ("CLS");			
 		}
 		else {	
 			if(imc > 18 && imc<24 ){
-			printf ("Sua classificação é: Saudável\n");
+			printf ("Sua classificaÃ§Ã£o Ã©: SaudÃ¡vel\n");
 			printf ("Deseja calcular o seu IMC?\n");
-			printf ("1 - SIM ou 2 - NÃO: ");
+			printf ("1 - SIM ou 2 - NÃƒO: ");
 			scanf ("%d",&res);
 			system ("CLS");
 			}
 			else{			
 				if (imc > 25,0 && imc<= 29,9){
-				printf ("Sua classificação é: Sobrepeso\n");
+				printf ("Sua classificaÃ§Ã£o Ã©: Sobrepeso\n");
 				printf ("Deseja calcular o seu IMC?\n");
-				printf ("1 - SIM ou 2 - NÃO: ");
+				printf ("1 - SIM ou 2 - NÃƒO: ");
 				scanf ("%d",&res);
 				system ("CLS");}
 				else{
 					 if (imc <= 30,0)
-					printf ("Sua classificação é; Obesidade\n");
+					printf ("Sua classificaÃ§Ã£o Ã©; Obesidade\n");
 					printf ("Deseja calcular o seu IMC?\n");
-					printf ("1 - SIM ou 2 - NÃO: ");
+					printf ("1 - SIM ou 2 - NÃƒO: ");
 					scanf ("%d",&res);
 					system ("CLS");			
 				}
