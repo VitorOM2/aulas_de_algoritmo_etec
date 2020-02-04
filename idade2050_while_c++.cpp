@@ -9,23 +9,23 @@ int main(){
 	aa=2019;
 	
 	puts ("Deseja calcular sua idade em 2050?");
-	puts ("1 - SIM  ou 2 - NÃO");
+	puts ("1 - SIM  ou 2 - NÃƒO");
 		scanf ("%d",&resp);
 		
 	while (resp!=1 && resp!=2){
 		puts ("Deseja calcular sua idade em 2050?");
-		puts ("1 - SIM  ou 2 - NÃO");
+		puts ("1 - SIM  ou 2 - NÃƒO");
 			scanf ("%d",&resp);	
 	}
 	while (resp == 1) {
-        puts("Digite o ano em que você nasceu ");
+        puts("Digite o ano em que vocÃª nasceu ");
         	scanf("%d",&an);
         ida=aa-an;
         id2050=2050-an;
-        printf("Sua idade atual é %d\n",ida);
-        printf("Sua idade em 2050 será %d\n",id2050);
+        printf("Sua idade atual Ã© %d\n",ida);
+        printf("Sua idade em 2050 serÃ¡ %d\n",id2050);
         puts("Deseja calcular  novamente? ");
-		puts("1 – para Sim ou 2 – para Não");
+		puts("1 â€“ para Sim ou 2 â€“ para NÃ£o");
         	scanf("%d",&resp);
        }
 	return(0);
