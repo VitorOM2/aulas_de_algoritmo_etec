@@ -8,19 +8,19 @@ int main (){
 	
 	int base,h,area,i=0;
 		
-	puts ("AREA E BASE DO RETÂNGULO\n\n");
+	puts ("AREA E BASE DO RETÃ‚NGULO\n\n");
 	
 	while (i<10){
 		
-		printf ("Informe a altura do retângulo: ");
+		printf ("Informe a altura do retÃ¢ngulo: ");
 		scanf ("%d",&h);
 		
-		printf ("Informe a base do retângulo: ");
+		printf ("Informe a base do retÃ¢ngulo: ");
 		scanf ("%d",&base);
 		
 		area = base*h;
 		
-		printf ("A área do retângulo é : %d\n\n",area);
+		printf ("A Ã¡rea do retÃ¢ngulo Ã© : %d\n\n",area);
 		
 		i++;		
 		Sleep (1000);
