@@ -13,7 +13,7 @@ int main (){
 	
 	while (taxa<=3){;
 		saldof = (dep*(taxa/100)+dep);
-		printf("O seu saldo após um mês sendo remunerado com juros vai ser de : R$ %.2f\n",saldof);
+		printf("O seu saldo apÃ³s um mÃªs sendo remunerado com juros vai ser de : R$ %.2f\n",saldof);
 		Sleep 
 		taxa++;
 		
