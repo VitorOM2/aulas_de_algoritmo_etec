@@ -24,7 +24,7 @@ int main()
 		      printf ("Informe sua altura: "); 
 		      scanf("%f",&altura);
      
-		      printf ("Informe seu sexo 0-para Msculino 1-para Feminino: "); 
+		      printf ("Informe seu sexo 0-para Masculino 1-para Feminino: "); 
 		      scanf	("%f",&sexo);
 
         /*Aumenta em 1 o contador de pessoas*/
